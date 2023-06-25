@@ -113,7 +113,7 @@ cmd({
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
             citel.reply("*Searching on YouTube* 🌎");
-            if (!text) return citel.reply(`Support - https://chat.whatsapp.com/JIXoDJCPwZz7zg9dVuBhks`);
+            if (!text) return citel.reply(`Support - https://chat.whatsapp.com`);
             let search = await yts(text);
             let textt = "*YouTube Search*\n\n Result From " + text + "\n\n━━━━━━━━━━━━━━━━━━━━━━━\n";
 
@@ -228,13 +228,13 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
+══✪〘*ZIZUKO-MD Tag All*〙✪══
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
 `
         for (let mem of participants) {
-            textt += `📍 @${mem.id.split("@")[0]}\n`;
+            textt += `🔎 @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
