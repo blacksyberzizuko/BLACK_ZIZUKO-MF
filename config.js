@@ -6,26 +6,26 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@sec.live'
-global.github = 'https://github.com/CyberSamuZa/DarkSamuza'
-global.location = 'Sultanpur IN'
+global.email = '@gmail.com'
+global.github = 'https://github.com'
+global.location = 'ANURADHAPURA '
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94765718443'
-global.devs = '94765718443';
-global.website = 'https://github.com/CyberSamuZa/DarkSamuza' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.sudo = process.env.SUDO || '94770378874'
+global.devs = '94770378874';
+global.website = 'https://github.com' //wa.me/+94762280384
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || 'ᴢɪᴢᴜᴋɪ-ᴍᴅ',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is pasindu* 🎊',
-  ownername:process.env.OWNER_NAME || 'Dark SamuZa',
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg',
+  alivemsj: process.env.ALIVE_MSJ || '*🙋‍♂️HI GAYS!! I,m BLACK_SYBER-ZIZUKO🙂',
+  ownername:process.env.OWNER_NAME || 'Dark zizuko',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split(";")[1] || 'zizuko',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
@@ -38,7 +38,7 @@ module.exports = {
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   BRANCH: 'main',
-  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
+  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || 'hi bro',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'PRABATH-MD',
