@@ -139,7 +139,7 @@ cmd({
             filename: __filename,
         },
         async(Void, citel, text) => {
-            if (!text) throw `Example : ${prefix}google Secktor Md`
+            if (!text) throw `Example : ${prefix}google 𝚣𝚒𝚣𝚞𝚔𝚘 Md`
             let google = require('google-it')
             google({ 'query': text }).then(res => {
                 let text = `Google Search From : ${text}\n\n`
