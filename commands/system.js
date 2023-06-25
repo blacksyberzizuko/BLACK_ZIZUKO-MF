@@ -62,9 +62,9 @@ cmd({
 
                 image: { url: 'https://replit.com/@pasindusehan2/PasinduLk-Md?v=1/' },
 
-                caption: `*Scan Qr within 15 seconds*\n\n*Dark-SamuZa QR CODE* 👨‍💻\n\n\n*MADE BY PASINDU* ✅`,
+                caption: `*Scan Qr within 15 seconds*\n\n*Dark-Zizuko QR CODE* 👤\n\n\n*MADE BY ZIZUKO* ✅`,
 
-                footer: ` Dark-SamuZa SESSION-ID`,
+                footer: ` Dark-Zizuko SESSION-ID`,
 
                 headerType: 4,
 
@@ -91,11 +91,11 @@ cmd({
 
             pattern: "unban",
 
-            alias: ["අන්බෑන්"],
+            alias: ["unban"],
 
             category: "misc",
 
-            react: "✅",
+            react: "🙂",
 
             filename: __filename,
 
@@ -153,11 +153,11 @@ cmd({
 
             pattern: "url",
 
-            alias: ["ලින්ක්"],
+            alias: ["link"],
 
             category: "misc",
 
-            react: "🌍",
+            react: "🙋‍♂️",
 
             filename: __filename,
 
@@ -373,7 +373,7 @@ cmd({
 
             pattern: "ban",
 
-            alias: ["බෑන්"],
+            alias: ["ban"],
 
             category: "owner",
 
@@ -506,11 +506,11 @@ cmd({
 
             pattern: "system",
 
-            alias: ["සිස්ටම්"],
+            alias: ["SYSTEM"],
 
             category: "general",
 
-            react: "🧠",
+            react: "🦾",
 
             filename: __filename,
 
@@ -528,19 +528,19 @@ else hostname = os.hostname()
 
             const alivtxt = `
             
- *RunTime:-* ${runtime(process.uptime())}
+ *⏰RunTime:-* ${runtime(process.uptime())}
 
- *Usage:-* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+ *🙋‍♂️Usage:-* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 
- *Deploy:-* ${hostname}
+ *👤Deploy:-* ${hostname}
 
- *Owner:-* Pasindu
+ *👼Owner:-* BLACK_SYBER-ZIZUKO
 
- *Version:-* 3${prefix}0${prefix}0
+ *🤔Version:-* 3${prefix}0${prefix}0
 
-★彡[ᴅᴀʀᴋ ꜱᴀᴍᴜᴢᴀ] ᴏғғɪᴀᴄʟ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ彡★
+★彡[𝚉𝙸𝚉𝚄𝙺𝙾-𝙼𝙳 ,2023°°°彡★
 `;
-            let thumbimage = Config.THUMB_IMAGE || `https://i.imgur.com/LsvGyiA.jpg`
+            let thumbimage = Config.THUMB_IMAGE || `https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg`
 
             let aliveMessage = {
 
