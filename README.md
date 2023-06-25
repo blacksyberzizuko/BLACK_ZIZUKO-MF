@@ -1,7 +1,7 @@
    <p align="center">  
-  <a href="https://i.imgur.com/LsvGyiA.jpg">
-    <img alt="secktor docs" height="300" src="https://i.imgur.com/LsvGyiA.jpg">
-    <h1 align="center"> Dark SamuZa </h1>
+  <a href="[https://i.imgur.com/LsvGyiA.jpg](https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg)">
+    <img alt="secktor docs" height="300" src="[https://i.imgur.com/LsvGyiA.jpg](https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg)">
+    <h1 align="center"> 🧚‍♂️BLACK-ZIZUKO </h1>
   </a>
 </p>  
 <p align="center">
