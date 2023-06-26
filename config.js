@@ -22,7 +22,8 @@ module.exports = {
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/55f1d0b60d084bd0729fb.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*🙋‍♂️HI GAYS!! I,m BLACK_SYBER-ZIZUKO🙂',
   ownername:process.env.OWNER_NAME || 'Dark zizuko',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
+  sessionName: process.env.SESSION_ID || 'Secktor;;;CareyOperate
+',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'zizuko',
