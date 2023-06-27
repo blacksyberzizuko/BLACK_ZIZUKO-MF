@@ -6,8 +6,8 @@
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name cybersamuza",
-                "stop": "pm2 stop cybersamuza"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name black_syber-zizuko",
+                "stop": "pm2 stop black_syber-zizuko "
                 },
                "author": "SamPandey001",
               "dependencies": {
